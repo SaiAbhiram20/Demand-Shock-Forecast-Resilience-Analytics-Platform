@@ -54,6 +54,35 @@ See `docs/powerbi_setup.md` for:
 - DAX measures (forecast, shocks, scenario impact)
 - recommended dashboard pages
 
+## Dashboard Preview
+
+![Executive Overview](docs/executive_overview.png)
+![Shock Radar](docs/shock_radar.png)
+![Scenario Stress Test](docs/scenario_stress_test.png)
+
+---
+
+## Results (Financial Impact from Scenario Stress Tests)
+
+Scenario totals are computed from `outputs/dsfr.sqlite` (`fact_scenarios`) as the sum of `net_impact_usd`
+(lost sales + overstock holding cost) across the 30-day forecast horizon.
+
+| Scenario | Total Net Impact (USD) |
+|---|---:|
+| Shock +40% | $1,738,782.93 |
+| Shock +25% | $1,086,739.33 |
+| Shock +10% | $434,695.73 |
+| Shock -40% | $205,717.06 |
+| Shock -25% | $128,573.16 |
+| Shock -10% | $51,429.27 |
+
+**Interpretation**
+- Positive demand shocks (surges) drive the largest **lost-sales risk** when supply is constrained to baseline forecast.
+- Negative shocks primarily increase **overstock holding costs**, with smaller total impact in this dataset.
+- The dashboard allows slicing by **region / store / category / SKU** to pinpoint where financial risk concentrates.
+
+---
+
 ## Notes
 - The data generator injects **sudden spikes/drops** to create realistic demand shocks.
 - The baseline forecaster is a Ridge regression on lag features (fast, interpretable).
