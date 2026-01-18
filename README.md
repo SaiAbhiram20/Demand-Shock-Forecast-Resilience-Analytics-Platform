@@ -56,9 +56,10 @@ See `docs/powerbi_setup.md` for:
 
 ## Dashboard Preview
 
-![Executive Overview](C:\Users\user\Downloads\demand-shock-forecast-resilience\demand-shock-forecast-resilience\docs\executive_overview.png)
-![Shock Radar](C:\Users\user\Downloads\demand-shock-forecast-resilience\demand-shock-forecast-resilience\docsdocs\shock_radar.png)
-![Scenario Stress Test](C:\Users\user\Downloads\demand-shock-forecast-resilience\demand-shock-forecast-resilience\docs\scenario_stress_test.png)
+![Executive Overview]<img width="1517" height="802" alt="executive overview" src="https://github.com/user-attachments/assets/a326c7e9-df7b-4e92-846e-75e61f736d21" />
+![Shock Radar]<img width="1518" height="803" alt="shock radar" src="https://github.com/user-attachments/assets/ee017d53-3df1-4b39-8773-3d027915f938" />
+![Scenario Stress Test]<img width="1315" height="801" alt="scenario stress test" src="https://github.com/user-attachments/assets/c0b3af4f-8414-4d62-95de-c5d0cd622466" />
+
 
 ---
 
