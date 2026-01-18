@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsfr"
+version = "0.1.0"
+description = "Demand Shock & Forecast Resilience Analytics Platform"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "python-dateutil>=2.8",
+  "tqdm>=4.66",
+  "streamlit>=1.31",
+]
